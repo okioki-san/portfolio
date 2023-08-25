@@ -4,7 +4,7 @@ from PIL import Image
 from googletrans import Translator
 
 # 画像の読み込み
-image = Image.open("lunch.jpg")
+image = Image.open("food.jpg")
 
 # 画像の前処理
 image = image.resize((299, 299))
