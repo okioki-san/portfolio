@@ -9,6 +9,7 @@ df = pd.read_excel("FC東京_data.xlsx", sheet_name="target")
 df_X = df.copy()
 df_Y = df.copy()
 
+
 df_X = df_X.drop(["節", "天候", "結果"], axis=1)
 df_Y = df_Y["結果"]
 
